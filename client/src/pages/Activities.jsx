@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+ï»¿import { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import api from '../utils/api';
 
@@ -166,7 +166,7 @@ export default function Activities() {
                   {activity.lead && (
                     <p className="text-blue-400 text-xs mt-0.5 flex items-center gap-1">
                       <i className="ti ti-user text-xs"></i>
-                      {activity.lead.name}{activity.lead.company ? " · " + activity.lead.company : ""}
+                      {activity.lead.name}{activity.lead.company ? " ï¿½ " + activity.lead.company : ""}
                     </p>
                   )}
                 </div>
